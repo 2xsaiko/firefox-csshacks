@@ -25,9 +25,9 @@ menupopup > menu{ padding-block: 0.3em !important; }
 
 .tab-close-button{
   margin-inline-start: 0px !important;
-  width: 20px !important;
-  height: 20px !important;
-  padding: 5px !important;
+  width: 15px !important;
+  height: 15px !important;
+  padding: 2px !important;
 }
 
 #tabbrowser-tabs{ --uc-tabs-scrollbutton-border: 2px }
