@@ -17,7 +17,7 @@ have menubar permanently enabled and want it on top
   display: block;
   top: 0px;
   right:0;
-  height: 40px;
+  height: 28px;
 }
 @media (-moz-bool-pref: "userchrome.force-window-controls-on-left.enabled"),
        (-moz-gtk-csd-reversed-placement),
