@@ -1,0 +1,18 @@
+/* Example userChrome.css file */
+
+/* Import your desired components first */
+
+@import url(chrome/window_control_placeholder_support.css);
+@import url(chrome/hide_tabs_with_one_tab.css);
+@import url(chrome/tabs_on_bottom_v2.css);
+@import url(chrome/compact_proton.css);
+@import url(chrome/compact_urlbar_megabar.css);
+@import url(chrome/non_floating_sharp_tabs.css);
+@import url(chrome/combined_favicon_and_tab_close_button.css);
+@import url(chrome/inline_tab_audio_icons.css);
+
+/* Apply your custom modifications after imports */
+
+:root {
+  --tab-min-height: 28px !important;
+}
