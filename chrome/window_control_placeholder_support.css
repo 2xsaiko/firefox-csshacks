@@ -12,8 +12,8 @@ Should preferably be imported before other stylesheets, because some values in t
 /* Modify these values to match your preferences
 These reserve extra space on both sides of the nav-bar to be able to drag the window */
 :root:is([tabsintitlebar], [sizemode="fullscreen"]) {
-  --uc-window-drag-space-pre: 30px; /* left side*/
-  --uc-window-drag-space-post: 30px; /* right side*/
+  --uc-window-drag-space-pre: 0px; /* left side*/
+  --uc-window-drag-space-post: 0px; /* right side*/
 }
 
 :root:is([tabsintitlebar][sizemode="maximized"], [sizemode="fullscreen"]) {
