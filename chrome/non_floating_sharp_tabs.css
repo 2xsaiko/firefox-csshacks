@@ -104,25 +104,6 @@ See the above repository for updates as well as full license text. */
   margin-inline-start: -1px; 
 }
 
-/* Line to mark selected tab */
-.tab-background[selected]::before,
-.tabbrowser-tab:hover > stack > .tab-background::before{
-  display: flex;
-  height: 2px;
-  content: "";
-}
-.tab-stack:hover > .tab-background::before{
-  background-color: inherit;
-}
-.tab-stack > .tab-background[selected]::before{
-  background-color: highlight;
-  background-image: linear-gradient(var(--lwt-tab-line-color),var(--lwt-tab-line-color));
-}
-/* Photon-like tab on hover animation for the top line */
-@keyframes tab-onhover-line-anim{ from{ margin-inline: 20px } to { margin-inline: 0 } }
-
-.tab-stack:hover > .tab-background::before{ animation: tab-onhover-line-anim 160ms }
-
 /* Disable animation for selected and pinned tabs */
 .tabbrowser-tab:is([pinned],[selected]) > .tab-stack > .tab-background::before{ animation: none }
 
