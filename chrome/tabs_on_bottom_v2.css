@@ -19,6 +19,9 @@ See the above repository for updates as well as full license text. */
   #TabsToolbar{
     order: 1;
   }
+  #PersonalToolbar {
+    order: 2;
+  }
   #TabsToolbar > :is(.titlebar-spacer,.titlebar-buttonbox-container){
     display: none;
   }
