@@ -15,4 +15,5 @@
 
 :root {
   --tab-min-height: 28px !important;
+  --uc-window-control-width: 0 !important;
 }

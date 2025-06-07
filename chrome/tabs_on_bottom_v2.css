@@ -37,6 +37,13 @@ See the above repository for updates as well as full license text. */
         display: flex !important;
       }
     }
+    @media (-moz-platform: macos) {
+      :root[sizemode="fullscreen"] & {
+        > .titlebar-buttonbox-container {
+          display: none !important;
+        }
+      }
+    }
     :root[sizemode="maximized"] & {
       > .titlebar-spacer[type="post-tabs"]{
         display: flex !important;
